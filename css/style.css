@@ -1,0 +1,79 @@
+html,body{
+  padding: 0;
+  margin: 0;
+}
+.wrapper{
+  width: 930px;
+  margin: 0 auto;
+}
+.wrapper > .row{
+  width: 100%;
+}
+.row > div{
+  width: calc(33% - 7px);
+  display: inline-block;
+  border: 1px solid gray;
+  margin-bottom: 30px;
+  margin-left: 5px;
+  position: relative;
+}
+.row div img{
+  width: 100%;
+  height: 226;
+}
+.row div h1{
+  padding: 10px 10px 10px 25px;
+  color: rgb(20,49,166);
+  font-size: 15px;
+
+}
+.socialButtons{
+  position: relative;
+  bottom: 0;
+  width: calc(100% - 2px);
+  border: 1px solid gray;
+  line-height: 30px;
+  border-top: 2px solid black;
+  background: rgb(242,242,242);
+
+}
+.socialButtons :nth-child(1){
+  border-right: 1px solid gray;
+  width: 32%;
+  text-align: center;
+  display: inline-block;
+  }
+.socialButtons :nth-child(2){
+  width: 32%;
+  border-right: 1px solid gray;
+  display: inline-block;
+  text-align: center;
+}
+.socialButtons :nth-child(3){
+  width: 32%;
+  display: inline-block;
+  text-align: center;
+}
+.dateTime{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 70px;
+
+}
+.dateTime :first-child{
+  padding: 15px 10px;
+  background: rgba(35, 147, 157, 0.71);
+  color: white;
+  display: inline-block;
+  /*margin-bottom: 1px;*/
+}
+.dateTime :last-child{
+  padding: 1px 10px;
+  background: rgba(66, 81, 110, 0.71);
+  color: white;
+}
+.socialButtons :nth-child(1):before{
+
+}
